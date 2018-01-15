@@ -39,7 +39,6 @@ set noswapfile
 set autoread
 set hidden
 set showcmd
-" set list
 set number
 set virtualedit=onemore
 set showmatch
@@ -52,6 +51,8 @@ set shiftwidth=2
 set smarttab
 set ambiwidth=double
 set whichwrap=b,s,h,l,<,>,[,],~
+set list
+set listchars=tab:▸\ ,eol:↲,extends:❯,precedes:❮
 syntax on
 
 " indentLine
